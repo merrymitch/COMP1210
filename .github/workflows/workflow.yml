@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Repository Traffic
         uses: wumphlett/repostats@v2.0.1
+        with:
+          format_readme: true
         env:
           TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
           
