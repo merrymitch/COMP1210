@@ -1,7 +1,7 @@
 name: Repository Traffic
 on:
   schedule:
-    - cron: "55 23 * * 1"
+    - cron: "55 23 * * *"
   workflow_dispatch:
 
 jobs:
